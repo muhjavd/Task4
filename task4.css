@@ -24,6 +24,7 @@
 .logodv img{
     width: 50vw;
 }
+
 .calldiv{
    margin-left: 42%;
    margin-top: 3%;
@@ -83,24 +84,29 @@ ul li:hover{
     
 }
 .leftpic img{
-    height: 60vh;
+    height: 67vh;
     width: 50vw;
     
 }
 .leftpic{
+    
+    height: 67vh;
+    width: 50vw;
     margin-left: 2%;
+    margin-right: 1.5%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
 }
 .picdv{
     display: flex;
 }
 .righpic{
     margin-right: 2%;
-    height: 60vh;
+    height: 67vh;
     width: 41%;
     background-image: url("./Pic/form_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
 }
 
 .qstndv{
@@ -142,16 +148,121 @@ span{
 .psentense p{
     font-size: 20px;
     font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.formcont{
+    
+    display: flex;
+    width: 38.8vw;
+}
+.formdv{
+    text-align: end;
+    margin-top: 2%;
+
+    height: 13vh;
+    width: 21vw;
+    
 }
 
-.lblone label{
-    border: 2px solid black;
-    width: 75px;
+.formdv label{
     font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+    width: 25vw;
+}
+.formdv input{
+    height: 3.2vh;
+    width:55vw;
+    margin-left: 2%;
+   
+}
+.lblone{
+    display: flex ;
+    justify-content: end ;
+    width: 100%;
+    
+    align-items: center;
+   margin-bottom: 2%;
+}
+.confidential{
+    
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.confidential img{
+
+    transform: rotate(9.5deg);
+    height: 8vh;
+    
+    
+}
+.formcont{
+    display: flex;
+}
+.holderdv{
+    margin-top: 4%;
+    margin-left: 6%;
+    width: 42.5vw;
+    height: 5vh;
+}
+textarea{
+    height: 12vh;
+    width: 80%;
+    resize: none;
+    
+}
+textarea::placeholder{
+    color: black;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 10px;
+    
 }
 
-
-.infodv input{
-     width: 75px;
+.bglastdv{
+   
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+}
+.prvacy{
+    
+    margin-left: 4%;
+    font-size: 19px;
+    font-style: italic;
+    color: rgb(96, 91, 91);
+}
+.casebutton{
+   
+    margin-right: 3%;
+    
+}
+.casebutton button{
+    width: 20.5vw;
+    height: 7vh;
+    background-color: brown;
+    color: white;
+    font-size: 22px;
+    margin-top: -4.5%;
+    margin-left: 5.5%;
+}
+.picsdiv{
+    display: flex;
+    border: 2px solid black;
+    height: 40vh;
+    margin-top: 4%;
+}
+.piconedv{
+    border: 2px solid black;
+}
+.picscnddv{
+    border: 2px solid black;
+}
+.picthrddv{
     border: 2px solid black;
 }
