@@ -16,22 +16,11 @@
 .keeferdv{
     display: flex;
 }
-@media(max-width: 768px){
- .keeferdv{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}  
-}
+
 .logodv{
     width: 50%
 }
-@media(max-width: 768px){
-    .logodv{
-    width: 100%;
-    
-}
-}
+
 .infodiv{
     margin-right: 3%;
     width: 60%;
@@ -39,36 +28,17 @@
     text-align: end;
     
 }
-@media(max-width: 768px){
-    .infodiv{
-    margin-right: 3%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-}
+
 .logodv img{
     width: 50vw;
 }
-@media(max-width: 768px){
-   .logodv img{
-    width: 100%;
-} 
-}
+
 .calldiv{
    margin-left: 43%;
    margin-top: 3%;
    
 }
-@media(max-width: 768px){
-    .calldiv{
-   margin-left: 2%;
-   margin-top: 3%;
-   width: 68%;
-}
-}
+
 .calldiv h3{
     border-bottom: 4px solid rgb(62, 61, 61);
     color: rgb(172, 11, 11);
@@ -76,40 +46,19 @@
     font-size: 30px;
     font-weight: bolder;
 }
-@media(max-width: 768px){
-    .calldiv h3{
-    border-bottom: 4px solid rgb(62, 61, 61);
-    color: rgb(172, 11, 11);
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
-}
-}
+
 .calldiv h1{
     font-family: sans-serif;
 font-size: 4rem;
     font-weight: bolder;
 }
-@media(max-width: 768px){
-    .calldiv h1{
-    font-family: sans-serif;
-font-size: 2.6rem;
-    font-weight: bolder;
-}
-}
+
 .calldiv p{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 23px;
 }
-@media(max-width: 768px){
-  .calldiv p{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 3%;
-}  
-}
+
 .bardiv{
     background-color: brown;
     
@@ -118,14 +67,7 @@ font-size: 2.6rem;
     display: flex;
     justify-content: end;  
 }
-@media(max-width: 768px){
-    .homediv{
-    display: flex;
-    justify-content: center; 
-    background-color: white;
-    margin-bottom: 5%;
-}
-}
+
 .homediv ul li a{
     text-decoration: none;
     font-size: 20px;
@@ -139,31 +81,12 @@ ul{
     margin-right: 1.7%;
     
 }
-@media(max-width: 768px){
-    ul{
-    list-style: none;
-    display: flex;
-    margin-right: 1.7%;
-    flex-wrap: wrap; 
-    background-color: white;
-}
-}
+
 li{
     padding: 20px;
     justify-content: end;
 }
-@media(max-width: 768px){
-    li{
-    padding: 20px;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-border: 2px solid white;
-background-color: brown;
-border-radius: 60px;
-}
-}
+
 ul li:hover{
     background-color: gray;
 }
@@ -173,26 +96,12 @@ ul li:hover{
     justify-content: space-around;
     
 }
-@media(max-width: 768px){
-    .picdv{
-    margin-top: -3.9%;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
-    
-}
-}
+
 .leftpic img{
     height: 67vh;
     width: 50vw; 
 }
-@media(max-width: 768px){
-    .leftpic img{
-    width: 96%;
 
-    }
-}
 
 
 .leftpic{
@@ -203,14 +112,7 @@ ul li:hover{
     margin-right: 1.5%;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
 }
-@media(max-width: 768px){
-    .leftpic{
-    
-    height: 67vh;
-    width: 100%;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
-}
-}
+
 
 .picdv{
     display: flex;
@@ -226,18 +128,7 @@ ul li:hover{
     background-size: cover;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
 }
-@media(max-width: 768px){
-    .righpic{
-    margin-right: 2%;
-    margin-top: 4%;
-    height: 67vh;
-    width: 98%;
-    background-image: url("./Pic/form_bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
-}
-}
+
 
 .qstndv{
     height: 6vh;
@@ -245,51 +136,24 @@ ul li:hover{
     padding: 5px;
     background-color: brown;
 }
-@media(max-width: 768px){
-    .qstndv{
-    height: 6vh;
-    width: 30%;
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-}
+
 .qstndv h1{
     color: white;
 }
-@media(max-width: 768px){
-    .qstndv h1{
-    color: white;
-    font-size: 15px;
-    
-}
-}
+
 .ritqstn p{
     font-size: 1.5rem;
     font-weight: bolder;
     color: black;
     font-family: sans-serif;
 }
-@media(max-width: 768px){
-    .ritqstn p{
-    font-size: 20px;
-    font-weight: bolder;
-}
-}
+
 .ritqstn{
     
     margin-left: 6%;
     width: 21vw;
 }
-@media(max-width: 768px){
-   .ritqstn{
-    
-    margin-left: 6%;
-    width: 100%;
-}
-}
+
 
 .maincntn{
     display: flex;
@@ -300,13 +164,7 @@ ul li:hover{
     color: rgb(0, 0, 0);
     font-weight: bolder;
 }
-@media(max-width: 768px){
-    .ritqstn span{
-    font-size: 25px;
-    color: rgb(50, 0, 116);
-    font-weight: bolder;
-}
-}
+
 .psentense{
     display: flex;
     justify-content: center;
@@ -316,41 +174,21 @@ ul li:hover{
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
-@media(max-width: 768px){
-    .psentense span{
-        color: rgb(0, 0, 0);
-    }
-}
+
 .psentense p{
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 2%;
 }
-@media(max-width: 768px){
-    .psentense p{
-    font-size: 14px;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-}
+
 
 .formcont{
     
     display: flex;
     width: 38.9vw;
 }
-@media(max-width: 768px){
-.formcont{
-    
-    display: flex;
-    width: 40vw;
-    
-    height: 15vh;
-}
-}
+
 .formdv{
     text-align: end;
     margin-top: 2%;
@@ -359,17 +197,7 @@ ul li:hover{
     width: 21vw;
     
 }
-@media(max-width: 768px){
-    .formdv{
-    text-align: center;
-    margin-top: 2%;
 
-    height: 13vh;
-    width: 35vw;
-    margin-left: 40%;
-    
-}
-}
 .formdv label{
     font-family: sans-serif;
     font-size: 15px;
@@ -383,14 +211,7 @@ ul li:hover{
     margin-left: 2%;
    
 }
-@media(max-width: 768px){
-    .formdv input{
-    height: 3.2vh;
-    width:30vw;
-    margin-left: 2%;
-   
-}
-}
+
 .lblone{
     display: flex ;
     justify-content: end ;
@@ -405,47 +226,22 @@ ul li:hover{
     margin-left: 3%;
     margin-top: 5%;
 }
-@media(max-width: 768px){
-.confidential{
-    
-    text-align: center;
-    margin-left: 8%;
-    margin-top: 9%;
-    
-}
-}
+
 .confidential img{
 
     transform: rotate(9.5deg);
     height: 8vh;   
 }
-@media(max-width: 768px){
-    .confidential img{
-
-    transform: rotate(9.5deg);
-    height: 8vh;  
-    width: 31vw; 
-}
-}
-
 .formcont{
     display: flex;
 }
-
 .holderdv{
     margin-top: 4%;
     margin-left: 6%;
     width: 42.5vw;
     height: 5vh;
 }
-@media(max-width: 768px){
-   .holderdv{
-    margin-top: 4%;
-    margin-left: 9%;
-    width: 100%;
-    height: 5vh;
-}
-}
+
 textarea{
     height: 12vh;
     width: 80%;
@@ -468,14 +264,7 @@ textarea::placeholder{
     margin-top: 15%;
     width: 100%;
 }
-@media(max-width: 768px){
-   .bglastdv{
-   
-    display: flex;
-    margin-top: 15%;
-    width: 100%;
-}
-}
+
 .prvacy p{
     width: 100%;
     margin-top: 2%;
@@ -484,30 +273,13 @@ textarea::placeholder{
     font-style: italic;
     color: rgb(96, 91, 91);
 }
-@media(max-width: 768px){
-    .prvacy p{
-        width: 100%;
-    margin-left: 13%;
-    margin-top: 2%;
-    
-    font-size: 12px;
-    font-style: italic;
-    color: rgb(96, 91, 91);
-    margin-top: 10%;
-}
-}
+
 .casebutton{
    
     margin-right: 20%;   
    
 }
-@media(max-width: 768px){
-   .casebutton{
-   
-    margin-right: 20%;   
-    
-} 
-}
+
 
 .casebutton button{
     width: 100%;
@@ -520,18 +292,7 @@ textarea::placeholder{
     margin-left: 20%;
     
 }
-@media(max-width: 768px){
-  .casebutton button{
-    width: 42vw;
-    border: none;
-    height: 7vh;
-    background-color: brown;
-    color: white;
-    font-size: 13px;
-    margin-top: -1%;
-}  
 
-}
 .mediacontainer{
     display: flex;
     width: 100%;
@@ -539,48 +300,23 @@ textarea::placeholder{
     margin-top: 5%;
     height: 50vh;
 }
-@media(max-width: 768px){
-    .mediacontainer{
-        border: 2px solid black;
-    display: block;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 5%;
-    height: 100%;
-}
-}
+
 .leftdv{
    
-    width: 100%;
-     border: 2px solid rgb(193, 248, 12);
+    width: 30%;
+     
     border-right: 2px solid rgba(194, 177, 177, 0.352);
 }
-@media(max-width: 768px){
-   .leftdv{
-   
-    width: 100%;
-    
-    border-right: 2px solid rgba(194, 177, 177, 0.352);
-} 
-}
+
 .leftdv h1{
     font-size: 28px;
 }
-@media(max-width: 768px){
-  .leftdv h1{
-    font-size: 20px;
-}  
-}
+
 .leftdv span{
     font-size: 28px;
     color: red;
 }
-@media(max-width: 768px){
-   .leftdv span{
-    font-size: 20px;
-    color: red;
-} 
-}
+
 .textsec{
     margin-left: 14%;
 }
@@ -599,16 +335,7 @@ textarea::placeholder{
     font-size: 21px;
     color: rgb(194, 22, 22);
 }
-@media(max-width: 768px){
-  .textsec P{
-    margin-top: 2%;
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-size: 14px;
-    color: rgb(194, 22, 22);
 
-}  
-}
 .paragraphdv p{
     color: rgba(0, 0, 0, 0.827);
     margin-top: 5%;
@@ -616,15 +343,7 @@ textarea::placeholder{
     font-family: sans-serif;
     font-size: 19.5px;
 }
-@media(max-width: 768px){
-.paragraphdv p{
-    color: rgba(106, 102, 102, 0.827);
-    margin-top: 3%;
-    
-    font-family: sans-serif;
-    font-size: 14px;
-}
-}
+
 .paragraphdv{
     margin-left: 14%;
     display: flex;
@@ -635,14 +354,7 @@ textarea::placeholder{
 margin-bottom: 5%;
 height: 21.5vh;
 }
-@media(max-width: 768px){
-  .paragraphdv img{
-    margin-left: 7%;
-    width: 18vw;
-margin-bottom: 5%;
-height: 14vh;
-}  
-}
+
 .bttndv{
     display: flex;
     align-items: end;
@@ -652,17 +364,7 @@ height: 14vh;
     margin-left: 48%;
     margin-top: 5%;
 }
-@media(max-width: 768px){
-    .bttndv{
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    border-top: 2px solid black;
-    width: 40%;
-    margin-left: 37%;
-    margin-top: 5%;
-}
-}
+
 
 .bttndv button{
     border: none;
@@ -676,120 +378,55 @@ height: 14vh;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
     
 }
-@media(max-width: 768px){
-   .bttndv button{
-    border: none;
-    background-color: rgb(172, 18, 18);
-    color: white;
-    margin-right: 15%;
-   
-    height: 5vh;
-    width: 70%;
-    font-size: 12px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
-    
-} 
-}
+
 .middv{
     width: 36vw;
     border-right: 2px solid rgba(194, 177, 177, 0.352);
 }
-@media(max-width: 768px){
-    .middv{
-    width: 100%;
-    border: 2px solid red;
-    border-right: 2px solid rgba(194, 177, 177, 0.352);
-}
-}
+
 
 .lawy{
     display: flex;
     border-bottom: 2px solid rgba(194, 177, 177, 0.352);
     height: 26vh;
 }
-@media(max-width: 768px){
-  .lawy{
-    width: 100%;
-    display: flex;
-    border-bottom: 2px solid rgba(194, 177, 177, 0.352);
-    height: 28vh;
-    margin-top: 4%;
-    border: 2px solid rgb(0, 24, 244);
-}  
-}
+
 .lawdv h1{
     font-size: 28px;
 }
-@media(max-width: 768px){
-   .lawdv h1{
-    font-size: 20px;
-} 
-}
+
 .middv span{
     color: brown;
     font-size: 28px;
 }
-@media(max-width: 768px){
-    .middv span{
-    color: brown;
-    font-size: 20px;
-}
-}
+
 .middv img{
     width: 14vw;
     height: 18vh;
     margin-left: 3%;
     margin-top: 3%;
 }
-@media(max-width: 768px){
-   .middv img{
-    margin-right: 5%;
-    width: 35vw;
-margin-bottom: 5%;
-height: 17vh;
-} 
-}
+
 .middv p{
     font-family: sans-serif;
     color: rgba(0, 0, 0, 0.573);
     font-weight: bold;
     font-size: 19px;
 }
-@media(max-width: 768px){
-    .middv p{
-    font-family: sans-serif;
-    color: rgba(104, 98, 98, 0.573);
-    font-weight: bold;
-    font-size: 14px;
-}
-}
+
 
 .lawdv{
     margin-left: 7%;   
-}
-@media(max-width: 768px){
-    .lawdv{
-    margin-left: 5%;   
-    border: 2px solid black;
-    height: 25vh;
-    width: 100vw;
+    
 }
 
-}
 
 .lawbttn{
     border-top: 2px solid black;
     width: 16vw;
     margin-top: 15%;   
 }
-@media(max-width: 768px){
-    .lawbttn{
-    border-top: 2px solid black;
-    width: 40vw;
-    margin-top: 20%;  
-    margin-left: 15%; 
-}
-}
+
 .lawbttn button{
     background-color: brown;
     color: rgb(255, 255, 255);
@@ -800,71 +437,33 @@ height: 17vh;
     margin-left: 26%;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
-@media(max-width: 768px){
-    .lawbttn button{
-    background-color: brown;
-    color: rgb(255, 255, 255);
-    height: 5vh;
-    width: 25vw;
-    font-size: 12px;
-    border: none;
-    margin-left: 26%;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
-}
-}
+
 .dwncont{
     display: flex;
 }
-@media(max-width: 768px){
-    .dwncont{
-    display: flex;
-    border: 2px solid rgb(14, 250, 124);
-}
-}
+
 .dwndv{
     margin-left: 5.5%;
 }
-@media(max-width: 768px){
-    .dwndv{
-    margin-left: 8%;
-}
-}
+
 .dwndv h1{
     font-size: 28px;
 }
-@media(max-width: 768px){
-   .dwndv h1{
-    font-size: 20px;
-} 
-}
+
 .dwndv span{
     font-size: 28px;
 }
-@media(max-width: 768px){
-   .dwndv span{
-    font-size: 20px;
-} 
-}
+
 .dwndv p{
     font-size: 19px;
 }
-@media(max-width: 768px){
-    .dwndv p{
-    font-size: 14px;
-}
-}
+
 .lawbutton{
     width: 15vw;
     margin-top: 12%;
     border-top: 2px solid black;
 }
-@media(max-width: 768px){
-   .lawbutton{
-    width: 90%;
-    margin-top: 12%;
-    border-top: 2px solid black;
-} 
-}
+
 .lawbutton button{
 background-color: brown;
     color: rgb(255, 255, 255);
@@ -876,56 +475,52 @@ background-color: brown;
     border: none;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
-@media(max-width: 768px){
-    .lawbutton button{
-background-color: brown;
-    color: rgb(255, 255, 255);
-    height: 5vh;
-    width: 25vw;
-    font-size: 12px;
-    margin-left: 18%;
-    border: none;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
-}
-}
+
 .dwncont img{
-    width: 13vw;
+    width: 10vw;
 }
-@media(max-width: 768px){
-    .dwncont img{
-    width: 28vw;
-    height: 20vh;
-}
+
+.rightdv{
+    width: 30vw;
 }
 
 .rightpics{
-    display: flex;
-    
+    display: flex; 
 }
+
 .rightpics{
     margin-top: 3%;
     margin-left: 12%;
 }
+
 .image1 img{
     
 width: 10vw;
 height: 18vh;
+}
+@media(max-width: 768px){
+    .image1 img{
+    
+width: 30vw;
+height: 18vh;
+}
 }
 .image2 img{
     margin-left: 18%;
 width: 9vw;
 height: 18vh;
 }
-.rightdv{
-    width: 30vw;
-}
+
+
 .CCdv{
     margin-top: 3%;
     margin-left: 5%;
 }
+
 .CCdv h1{
     font-size: 28px;
 }
+
 .CCdv span{
     color: brown;
     font-size: 28px;
@@ -939,41 +534,45 @@ height: 18vh;
     margin-left: 6%;
     margin-top: 6%;
 }
+
 .paragraphright p{
     font-family: sans-serif;
     font-size: 19px;
     color: rgb(76, 72, 72);
     font-weight: bold;
 }
+
 .ritbtn{
-width: 15vw;
+width: 14vw;
     margin-top: 4%;
     border-top: 2px solid black;
-    margin-left: 27%;
+    margin-left: 8%;
 }
+
 .ritbtn button{
 background-color: brown;
     color: rgb(255, 255, 255);
     height: 5vh;
-    width: 10vw;
-    font-size: 18px;
+    width: 8vw;
+    font-size: 14px;
     margin-left: 26%;
     border: none;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
-.shadowpic{
-    width: 100%;
-}
+
+
 .shadowpic img{
     width: 100%;
     height: 1.5vh;
 }
 
 
+
 .lastcontainer{
     margin-top: 3%;
     display: flex;
 }
+
 .lefttdiv{
     margin-left: 3%;
 }
@@ -999,10 +598,12 @@ background-color: brown;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 
 }
+
 .greydiv img{
     height: 11vh;
     width: 1vw;
 }
+
 .greydiv h2{
     font-family: sans-serif;
     color: white;
@@ -1014,8 +615,8 @@ font-size: 23px;
 .greyhb{
     width: 22vw;
     height: 28vh;
-
 }
+
 .greyhb button{
     background-color: rgba(123, 120, 120, 0.899);
     margin-top: 2%;
@@ -1026,15 +627,46 @@ color: white;
 font-weight: bold;
 
 }
+
+.learnmoreabout{
+    margin-left: 1%;
+    margin-top: 20%;
+    width: 20vw;
+    
+}
+
+.learnmoreabout h1{
+    font-size: 26px;
+    margin-bottom: 30%;
+}
+
+.learnmoreabout span{
+    font-size: 26px;
+}
+
+.xyz{
+    margin-left: 10%;
+}
+
+.xyz h1{
+    font-family: sans-serif;
+}
+
 .greyhb span{
     font-size: 18px;
 }
+
 
 .bigheading{
     width: 51vw;
     margin-left: 7%;
     
 }
+
+.bighead h1{
+    color: black;
+}
+
 .midparagraph{
     margin-top: 3%;
 }
@@ -1042,23 +674,25 @@ font-weight: bold;
     font-family: sans-serif;
     margin-bottom: 1.5%;
 }
+
 .lasttdiv{
-   
-    width: 20vw;
-    
+    width: 20vw; 
 }
+
 .cmbineitems{
     margin-left: 2%;
 }
+
 .clientsdv h1{
 font-size: 26px;
 margin-left: 18%;
 }
+
 .clientsdv span{
-    
     font-size: 26px;
     color: brown;
 }
+
 .clientp p{
     margin-left: 18%;
     font-size: 19.8px;
@@ -1066,6 +700,7 @@ margin-left: 18%;
     font-weight: 80%;
     margin-top: 4%;
 }
+
 .clientbutton button{
     background-color: brown;
     color: rgb(255, 255, 255);
@@ -1077,6 +712,7 @@ margin-left: 18%;
     border: none;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
+
 .clientbutton{
     
     width: 13vw;
@@ -1084,70 +720,969 @@ margin-left: 18%;
     margin-left: 16%;
     border-top: 2px solid black;
 }
-.learnmoreabout{
-    margin-left: 1%;
-    margin-top: 20%;
-    width: 20vw;
-    
-}
-.learnmoreabout h1{
-    font-size: 26px;
-    margin-bottom: 30%;
-}
-.learnmoreabout span{
-    font-size: 26px;
-}
-.xyz{
-    margin-left: 10%;
-}
-.xyz h1{
-    font-family: sans-serif;
-}
+
+
 .bluepic{
     margin-left: 25%;
 }
+
 .bluepic img{
     height: 23vh;
     width: 13vw;
 }
+
 .blackpic{
     margin-left: 30%;
 }
+
 .blackpic img{
     height: 23vh;
     width: 11vw;
     margin-top: 12%;
 }
+
 .follow{
-   
     width: 15vw;
     margin-left: 17%;
-    
 }
+
 .fllwus{
     margin-top: 17%;
-    margin-left: 18%;
-    
+    margin-left: 18%; 
 }
+
 .fllwus h1{
+    margin-left: 6%;
     font-size: 28px;
 font-weight: bolder;
 }
+
 .fllwus span{
     font-size: 28px;
     color: brown;
 }
+.fllwus img{
+    margin-right: 20%;
+}
+
 .socialmedia{
     display: flex;
     margin-top: 3%;
-    margin-left: 19%;
-    
+    margin-left: 27%;
+    margin-bottom: 30%;
 }
+
 .sm1 img{
     width: 3vw;
     margin: 5px;
 } 
 
 
+/*################## media quire ################*/
+
+@media(max-width: 768px){
+ .keeferdv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+    .logodv{
+    width: 100%;
+    
+}
 
 
+
+    .infodiv{
+    margin-right: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+   .logodv img{
+    width: 100%;
+} 
+
+
+
+    .calldiv{
+   margin-left: 2%;
+   margin-top: 3%;
+   width: 68%;
+}
+
+
+
+    .calldiv h3{
+    border-bottom: 4px solid rgb(62, 61, 61);
+    color: rgb(172, 11, 11);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+    .calldiv h1{
+    font-family: sans-serif;
+font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+
+
+
+  .calldiv p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3%;
+}  
+
+
+
+    .homediv{
+    display: flex;
+    justify-content: center; 
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+
+
+    ul{
+    list-style: none;
+    display: flex;
+    margin-right: 1.7%;
+    flex-wrap: wrap; 
+    background-color: white;
+}
+
+
+
+
+    li{
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+border: 2px solid white;
+background-color: brown;
+border-radius: 60px;
+}
+
+
+
+    .picdv{
+    margin-top: -3.9%;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+
+    .leftpic img{
+    width: 96%;
+
+    }
+
+
+
+    .leftpic{
+    
+    height: 67vh;
+    width: 100%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+
+
+
+    .righpic{
+    margin-right: 2%;
+    margin-top: 4%;
+    height: 67vh;
+    width: 98%;
+    background-image: url("./Pic/form_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+
+
+
+
+    .qstndv{
+    height: 6vh;
+    width: 30%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+    .qstndv h1{
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+
+    .ritqstn p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+   .ritqstn{
+    
+    margin-left: 6%;
+    width: 100%;
+}
+
+
+
+    .ritqstn span{
+    font-size: 25px;
+    color: rgb(50, 0, 116);
+    font-weight: bolder;
+}
+
+
+
+
+    .psentense span{
+        color: rgb(0, 0, 0);
+    
+}
+
+
+    .psentense p{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.formcont{
+    
+    display: flex;
+    width: 40vw;
+    
+    height: 15vh;
+}
+
+    .formdv{
+    text-align: center;
+    margin-top: 2%;
+
+    height: 13vh;
+    width: 35vw;
+    margin-left: 40%;
+    
+}
+
+
+
+    .formdv input{
+    height: 3.2vh;
+    width:30vw;
+    margin-left: 2%;
+   
+}
+
+
+
+.confidential{
+    
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 9%;
+    
+}
+
+
+
+    .confidential img{
+
+    transform: rotate(9.5deg);
+    height: 8vh;  
+    width: 31vw; 
+}
+
+
+
+   .holderdv{
+    margin-top: 4%;
+    margin-left: 9%;
+    width: 100%;
+    height: 5vh;
+}
+
+
+   .bglastdv{
+   
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+}
+
+
+
+    .prvacy p{
+        width: 100%;
+    margin-left: 13%;
+    margin-top: 2%;
+    
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(96, 91, 91);
+    margin-top: 10%;
+}
+
+
+
+   .casebutton{
+   
+    margin-right: 20%;   
+    
+} 
+
+
+
+  .casebutton button{
+    width: 42vw;
+    border: none;
+    height: 7vh;
+    background-color: brown;
+    color: white;
+    font-size: 13px;
+    margin-top: -1%;
+}  
+
+
+
+    .mediacontainer{
+        
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+
+
+   .leftdv{
+   
+    width: 100%;
+    
+    border-right: 2px solid rgba(194, 177, 177, 0.352);
+} 
+
+
+
+  .leftdv h1{
+    font-size: 20px;
+}  
+
+
+
+   .leftdv span{
+    font-size: 20px;
+    color: red;
+} 
+
+
+
+  .textsec P{
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(194, 22, 22);
+
+}  
+
+
+
+.paragraphdv p{
+    color: rgba(106, 102, 102, 0.827);
+    margin-top: 3%;
+    
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+
+  .paragraphdv img{
+    margin-left: 7%;
+    width: 18vw;
+margin-bottom: 5%;
+height: 14vh;
+}  
+
+
+
+    .bttndv{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-top: 2px solid black;
+    width: 40%;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+
+
+   .bttndv button{
+    border: none;
+    background-color: rgb(172, 18, 18);
+    color: white;
+    margin-right: 15%;
+   
+    height: 5vh;
+    width: 70%;
+    font-size: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+    
+} 
+
+
+
+    .middv{
+    width: 100%;
+    
+    border-right: 2px solid rgba(194, 177, 177, 0.352);
+}
+
+
+
+  .lawy{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgba(194, 177, 177, 0.352);
+    height: 28vh;
+    margin-top: 4%;
+    
+}  
+
+
+
+   .lawdv h1{
+    font-size: 20px;
+} 
+
+
+
+    .middv span{
+    color: brown;
+    font-size: 20px;
+}
+
+
+
+   .middv img{
+    margin-right: 5%;
+    width: 35vw;
+margin-bottom: 5%;
+height: 17vh;
+} 
+
+
+
+    .middv p{
+    font-family: sans-serif;
+    color: rgba(104, 98, 98, 0.573);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+    .lawdv{
+    margin-left: 5%;   
+    
+    height: 25vh;
+    width: 100vw;
+}
+
+
+
+    .lawbttn{
+    border-top: 2px solid black;
+    width: 40vw;
+    margin-top: 20%;  
+    margin-left: 15%; 
+}
+
+
+
+    .lawbttn button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 25vw;
+    font-size: 12px;
+    border: none;
+    margin-left: 26%;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+    .dwncont{
+    display: flex;
+   
+}
+
+
+
+    .dwndv{
+    margin-left: 8%;
+}
+
+
+
+
+   .dwndv h1{
+    font-size: 20px;
+} 
+
+
+
+   .dwndv span{
+    font-size: 20px;
+} 
+
+
+
+    .dwndv p{
+    font-size: 14px;
+}
+
+
+
+   .lawbutton{
+    width: 90%;
+    margin-top: 12%;
+    border-top: 2px solid black;
+} 
+
+
+
+    .lawbutton button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 25vw;
+    font-size: 12px;
+    margin-left: 18%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+    .dwncont img{
+    width: 28vw;
+    height: 20vh;
+}
+
+
+
+   .rightdv{
+    width: 100%;
+    
+} 
+
+
+
+  .rightpics{
+    width: 100%;
+    display: flex; 
+     
+}  
+
+
+
+  .rightpics{
+    margin-top: 3%;
+    margin-left: 12%;
+}  
+
+
+
+    .image2 img{
+    margin-left: 18%;
+width: 30vw;
+height: 18vh;
+}
+
+
+
+    .CCdv{
+    
+    margin-left: 15%;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+
+
+    .CCdv h1{
+    font-size: 21px;
+}
+
+
+
+   .CCdv span{
+    color: brown;
+    font-size: 21px;
+} 
+
+
+
+    .paragraphright{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+
+
+
+    .paragraphright p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(121, 109, 109);
+    font-weight: bold;
+}
+
+
+
+  .ritbtn{
+width: 40vw;
+    margin-top: 4%;
+    border-top: 2px solid black;
+    margin-left: 15%;
+}  
+
+
+
+    .ritbtn button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 25vw;
+    font-size: 12px;
+    margin-left: 25%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+    .shadowpic img{
+    width: 100%;
+    height: 1.5vh;
+   
+}
+
+
+
+    .lastcontainer{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+  .lefttdiv{
+    margin-left: 18%;
+    width: 100%;
+    letter-spacing: 3px;
+}  
+
+
+
+    .lefttdiv h2{
+    font-size: 22px;
+}
+
+
+
+    .lefttdiv span{
+    font-size: 22px;
+    color: brown;
+}
+
+
+
+   .greydiv{
+    margin-left: 3.5%;
+    width: 55vw;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    height: 12vh;
+    background-color: rgba(109, 107, 107, 0.899);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+
+} 
+
+
+
+    .greydiv img{
+    height: 12vh;
+    width: 2vw;
+}
+
+
+
+ .greydiv h2{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 4%;
+    margin-top: 2%;
+font-size: 15px;
+}   
+
+
+
+    .greyhb{
+    width: 45vw;
+    height: 28vh;
+}
+
+
+
+  .greyhb button{
+    background-color: rgba(123, 120, 120, 0.899);
+    
+    margin-left: 48%;
+font-size: 10px;
+border: none;
+color: white;
+font-weight: bold;
+height: 5vh;
+}  
+
+
+
+    .learnmoreabout{
+    margin-right: 15%;
+    margin-top: 10%;
+    width: 100%;
+    margin-left: -7%;
+    
+}
+
+
+
+   .learnmoreabout h1{
+    font-size: 23px;
+    margin-bottom: 30%;
+    font-family: sans-serif;
+} 
+
+
+
+   .learnmoreabout span{
+    font-size: 23px;
+    font-family: sans-serif;
+} 
+
+
+
+    .xyz{
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+
+
+
+    .greyhb span{
+        
+    font-size: 15px;
+}
+
+
+
+   .bigheading{
+    width: 100%;
+    margin-left: 7%;
+    
+} 
+
+
+
+
+    .bighead h1{
+    color: black;
+    font-size: 25px;
+    margin-left: 7%;
+}
+
+
+
+  .midparagraph p{
+    font-family: sans-serif;
+    margin-bottom: 1.5%;
+    font-size: 8px;
+}  
+
+
+
+    .lasttdiv{
+    width: 100%; 
+    margin-top: 5%;
+}
+
+
+
+    .cmbineitems{
+    margin-left: 15%;
+}
+
+
+
+    .clientsdv h1{
+font-size: 20px;
+margin-left: 18%;
+}
+
+
+
+    .clientsdv span{
+    font-size: 20px;
+    color: brown;
+}
+
+
+
+
+   .clientp p{
+    margin-left: 18%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 80%;
+    margin-top: 2%;
+} 
+
+
+
+  .clientbutton button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 25vw;
+    font-size: 12px;
+  margin-bottom: 18%;
+    margin-left: 20%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}  
+
+
+
+   .clientbutton{
+    
+    width: 35vw;
+    margin-top: 4%;
+    margin-left: 16%;
+    border-top: 2px solid black;
+} 
+
+
+
+    .bluepic{
+    margin-left: 25%;
+    width: 100%;
+}
+
+
+
+   .bluepic img{
+    height: 23vh;
+    width: 40vw;
+} 
+
+
+
+
+    .blackpic{
+    margin-left: 28%;
+    width: 100%;
+}
+
+
+
+
+   .blackpic img{
+    height: 22vh;
+    width: 35vw;
+} 
+
+
+
+    .follow{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+
+
+  .fllwus{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%; 
+    
+}  
+
+
+
+   .fllwus h1{
+    margin-left: 15%;
+    font-size: 28px;
+font-weight: bolder;
+} 
+
+
+
+
+   .fllwus img{
+    margin-left: 8%;
+} 
+
+
+
+    .socialmedia{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 21%;
+}
+
+
+
+
+    .sm1 img{
+    width: 9vw;
+    margin: 5px;
+    }
+}
