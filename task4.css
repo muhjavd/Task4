@@ -151,7 +151,7 @@ ul li:hover{
 .ritqstn{
     
     margin-left: 6%;
-    width: 21vw;
+    width: 20vw;
 }
 
 
@@ -498,13 +498,7 @@ background-color: brown;
 width: 10vw;
 height: 18vh;
 }
-@media(max-width: 768px){
-    .image1 img{
-    
-width: 30vw;
-height: 18vh;
-}
-}
+
 .image2 img{
     margin-left: 18%;
 width: 9vw;
@@ -791,11 +785,16 @@ font-weight: bolder;
     width: 100%;
     
 }
+   .logodv img{
+    width: 80vw;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 13vh;
+} 
 
-
-
-    .infodiv{
-    margin-right: 3%;
+  .infodiv{
+    
+    margin: 0%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -803,26 +802,18 @@ font-weight: bolder;
     align-items: center;
 }
 
-
-   .logodv img{
-    width: 100%;
-} 
-
-
-
     .calldiv{
    margin-left: 2%;
    margin-top: 3%;
-   width: 68%;
+   width: 90%;
+   
 }
 
-
-
     .calldiv h3{
-    border-bottom: 4px solid rgb(62, 61, 61);
+    
     color: rgb(172, 11, 11);
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bolder;
 }
 
@@ -830,7 +821,7 @@ font-weight: bolder;
 
     .calldiv h1{
     font-family: sans-serif;
-font-size: 2.6rem;
+font-size: 2rem;
     font-weight: bolder;
 }
 
@@ -840,7 +831,7 @@ font-size: 2.6rem;
   .calldiv p{
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 3%;
 }  
 
@@ -849,7 +840,6 @@ font-size: 2.6rem;
     .homediv{
     display: flex;
     justify-content: center; 
-    background-color: white;
     margin-bottom: 5%;
 }
 
@@ -867,105 +857,85 @@ font-size: 2.6rem;
 
 
     li{
-    padding: 20px;
+   
     justify-content: center;
     width: 100%;
     align-items: center;
-    text-align: center;
-border: 2px solid white;
-background-color: brown;
-border-radius: 60px;
+    background-color: brown;
+    padding: 2px;
+    
 }
-
-
+.homediv ul li a{
+    font-size: 16px;
+}
 
     .picdv{
-    margin-top: -3.9%;
+    margin-top: 5%;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
+    width: 95%;
     flex-wrap: wrap;
+    margin-left: 1%;
     
 }
 
-
-
     .leftpic img{
-    width: 96%;
-
+    width: 100%;
     }
-
-
-
-    .leftpic{
-    
+    .leftpic{ 
     height: 67vh;
     width: 100%;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
 }
-
-
-
     .righpic{
-    margin-right: 2%;
+    margin-left: 2%;
     margin-top: 4%;
     height: 67vh;
-    width: 98%;
+    width: 100%;
     background-image: url("./Pic/form_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
 }
-
-
-
-
+   .maincntn{
+    display: flex;
+    flex-wrap: wrap;
+   }
     .qstndv{
     height: 6vh;
-    width: 30%;
+    width: 70%;
     background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-
-    .qstndv h1{
-    color: white;
-    font-size: 15px;
     
 }
-
-
-
+  .qstndv h1{
+    color: white;
+    font-size: 25px;
+    
+}
+   .ritqstn{
+  
+  margin-left: 0%;
+    width: 100vw;
+   
+}
     .ritqstn p{
-    font-size: 20px;
+        
+        margin-right: 15%;
+    font-size: 15px;
     font-weight: bolder;
 }
-
-
-
-   .ritqstn{
-    
-    margin-left: 6%;
-    width: 100%;
-}
-
-
-
     .ritqstn span{
-    font-size: 25px;
+    font-size: 21px;
     color: rgb(50, 0, 116);
     font-weight: bolder;
 }
-
-
-
-
     .psentense span{
         color: rgb(0, 0, 0);
-    
+    font-size: 15px;
 }
 
 
@@ -975,27 +945,33 @@ border-radius: 60px;
     font-weight: bold;
     margin-top: 2%;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .formcont{
-    
     display: flex;
     width: 40vw;
-    
     height: 15vh;
 }
 
     .formdv{
     text-align: center;
     margin-top: 2%;
-
     height: 13vh;
-    width: 35vw;
-    margin-left: 40%;
+    width: 100%;
+    margin-left: 0;
     
 }
 
-
+.lblone{
+    margin-left: 0;
+    text-align: start;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+}
 
     .formdv input{
     height: 3.2vh;
@@ -1003,74 +979,74 @@ border-radius: 60px;
     margin-left: 2%;
    
 }
-
-
-
 .confidential{
-    
+   width: 100%;
     text-align: center;
-    margin-left: 8%;
-    margin-top: 9%;
+    margin-left: 3%;
+    margin-top: 12%;
     
 }
-
-
-
     .confidential img{
 
     transform: rotate(9.5deg);
     height: 8vh;  
     width: 31vw; 
+    margin-left: 85%;
+    margin-top: 8%;
+    
+}
+.plchlder textarea{
+    height: 9vh;
+    width: 80vw;
+    margin-top: 12%;
 }
 
 
-
    .holderdv{
-    margin-top: 4%;
-    margin-left: 9%;
-    width: 100%;
-    height: 5vh;
+    margin-left: 0;
+    
+    width: 91vw;
+    height: 13vh;
 }
 
 
    .bglastdv{
-   
-    display: flex;
-    margin-top: 15%;
+   margin-top: 8%;
+    
     width: 100%;
+    display: block;
 }
 
 
 
     .prvacy p{
-        width: 100%;
-    margin-left: 13%;
-    margin-top: 2%;
-    
-    font-size: 12px;
+    width: 100%;
+    margin-left: 30%;
+    font-size: 15px;
     font-style: italic;
     color: rgb(96, 91, 91);
-    margin-top: 10%;
 }
 
 
 
    .casebutton{
-   
-    margin-right: 20%;   
+  
+    width: 100%;  
     
 } 
 
 
 
   .casebutton button{
-    width: 42vw;
+    width: 70vw;
     border: none;
-    height: 7vh;
+    height: 6vh;
     background-color: brown;
     color: white;
     font-size: 13px;
-    margin-top: -1%;
+    margin-left: 12%;
+    margin-top: 1%;
+    
 }  
 
 
@@ -1083,32 +1059,27 @@ border-radius: 60px;
     margin-top: 5%;
     height: 100%;
 }
-
-
-
-   .leftdv{
-   
-    width: 100%;
-    
-    border-right: 2px solid rgba(194, 177, 177, 0.352);
+.leftdv{ 
+    width: 100%;  
 } 
-
-
-
-  .leftdv h1{
+.leftdv h1{
     font-size: 20px;
+    margin-right: 15%;
 }  
-
-
-
-   .leftdv span{
+ .leftdv span{
     font-size: 20px;
     color: red;
 } 
-
-
-
-  .textsec P{
+.textsec{
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textsec P{
+    margin-right: 15%;
     margin-top: 2%;
     font-family: sans-serif;
     font-weight: bolder;
@@ -1116,40 +1087,36 @@ border-radius: 60px;
     color: rgb(194, 22, 22);
 
 }  
-
-
-
-.paragraphdv p{
+.paragraphdv{
+   
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+    .paragraphdv p{
     color: rgba(106, 102, 102, 0.827);
     margin-top: 3%;
-    
+    width: 100%;
     font-family: sans-serif;
     font-size: 14px;
+    margin-right: 15%;
 }
-
-
-
   .paragraphdv img{
-    margin-left: 7%;
-    width: 18vw;
-margin-bottom: 5%;
-height: 14vh;
-}  
-
-
-
+    margin-left: 32%;
+    width: 17vw;
+    margin-bottom: 5%;
+    height: 17vh;
+}
     .bttndv{
+    
     display: flex;
     align-items: end;
     justify-content: end;
     border-top: 2px solid black;
-    width: 40%;
-    margin-left: 37%;
-    margin-top: 5%;
+     width: 60vw;
+    margin-left: 20%;
+    
 }
-
-
-
    .bttndv button{
     border: none;
     background-color: rgb(172, 18, 18);
@@ -1157,9 +1124,9 @@ height: 14vh;
     margin-right: 15%;
    
     height: 5vh;
-    width: 70%;
-    font-size: 12px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+    width: 43vw;
+    font-size: 15px;
+    box-shadow: 0px 8px 20px rgba(29, 28, 28, 0.4)
     
 } 
 
@@ -1167,41 +1134,54 @@ height: 14vh;
 
     .middv{
     width: 100%;
-    
-    border-right: 2px solid rgba(194, 177, 177, 0.352);
+   margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 
   .lawy{
     width: 100%;
-    display: flex;
-    border-bottom: 2px solid rgba(194, 177, 177, 0.352);
-    height: 28vh;
-    margin-top: 4%;
     
+    height: 25vh;
+    margin-top: 4%;
+    margin-left: 20%;
+    
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 30%;
 }  
 
-
+    .lawdv{
+    margin-left: 5%;   
+    flex-wrap: wrap;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+}
 
    .lawdv h1{
+   margin-right: 50%;
     font-size: 20px;
+    width: 100%;
 } 
-
-
 
     .middv span{
     color: brown;
     font-size: 20px;
+    
 }
 
-
-
    .middv img{
-    margin-right: 5%;
-    width: 35vw;
-margin-bottom: 5%;
-height: 17vh;
+    margin-right: 55%;
+    width: 30vw;
+margin-top: 5%;
+    height: 13vh;
 } 
 
 
@@ -1211,23 +1191,21 @@ height: 17vh;
     color: rgba(104, 98, 98, 0.573);
     font-weight: bold;
     font-size: 14px;
+    margin-right: 50%;
+     
 }
 
 
-    .lawdv{
-    margin-left: 5%;   
-    
-    height: 25vh;
-    width: 100vw;
-}
+
 
 
 
     .lawbttn{
-    border-top: 2px solid black;
-    width: 40vw;
-    margin-top: 20%;  
-    margin-left: 15%; 
+    border-top: 2px solid rgb(0, 0, 0); 
+    width: 100vw;
+    margin-right: 50%;
+    margin-top: 10%;
+    
 }
 
 
@@ -1236,50 +1214,55 @@ height: 17vh;
     background-color: brown;
     color: rgb(255, 255, 255);
     height: 5vh;
-    width: 25vw;
-    font-size: 12px;
+    width: 42vw;
+    font-size: 15px;
+    
     border: none;
-    margin-left: 26%;
+    margin-left: 1%;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
 
 
 
-    .dwncont{
+.dwncont{
+    display: flex; 
+    margin-bottom: 10%;  
+     width: 100%;
     display: flex;
-   
+    flex-wrap: wrap;
 }
-
-
-
-    .dwndv{
-    margin-left: 8%;
+.dwndv{
+    margin-left: 15%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
-
-
-
-   .dwndv h1{
+.dwndv h1{
+    font-size: 20px;
+    margin-right: 17%;
+} 
+.dwndv span{
     font-size: 20px;
 } 
-
-
-
-   .dwndv span{
-    font-size: 20px;
-} 
-
-
-
     .dwndv p{
     font-size: 14px;
+    margin-right: 15%;
 }
 
-
+   .dwndv img{
+    margin-right: 24%;
+    margin-top: 10%;
+    width: 30vw;
+    height: 15vh;
+}
 
    .lawbutton{
-    width: 90%;
-    margin-top: 12%;
+    width: 60vw;
+    margin-right: 20%;
+    margin-top: 5%;
     border-top: 2px solid black;
 } 
 
@@ -1289,45 +1272,39 @@ height: 17vh;
 background-color: brown;
     color: rgb(255, 255, 255);
     height: 5vh;
-    width: 25vw;
-    font-size: 12px;
-    margin-left: 18%;
+    width: 43vw;
+    font-size: 15px;
+    margin-left: 2%;
     border: none;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
 
 
 
-    .dwncont img{
-    width: 28vw;
-    height: 20vh;
-}
-
-
+ 
 
    .rightdv{
     width: 100%;
     
 } 
 
-
-
   .rightpics{
+    
     width: 100%;
     display: flex; 
-     
+       margin-top: 3%;
+    margin-left: 15%;
 }  
 
-
-
-  .rightpics{
-    margin-top: 3%;
-    margin-left: 12%;
-}  
-
+    .image1 img{
+    
+width: 30vw;
+height: 18vh;
+}
 
 
     .image2 img{
+        
     margin-left: 18%;
 width: 30vw;
 height: 18vh;
@@ -1337,8 +1314,10 @@ height: 18vh;
 
     .CCdv{
     
-    margin-left: 15%;
+    margin-left: 0%;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     letter-spacing: 2px;
 }
 
@@ -1346,6 +1325,7 @@ height: 18vh;
 
     .CCdv h1{
     font-size: 21px;
+    
 }
 
 
@@ -1358,8 +1338,11 @@ height: 18vh;
 
 
     .paragraphright{
-    margin-left: 15%;
+    margin-left: 0%;
     margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 
@@ -1375,10 +1358,10 @@ height: 18vh;
 
 
   .ritbtn{
-width: 40vw;
+    width: 54vw;
     margin-top: 4%;
     border-top: 2px solid black;
-    margin-left: 15%;
+    margin-left: 20%;
 }  
 
 
@@ -1387,9 +1370,9 @@ width: 40vw;
 background-color: brown;
     color: rgb(255, 255, 255);
     height: 5vh;
-    width: 25vw;
-    font-size: 12px;
-    margin-left: 25%;
+    width: 43vw;
+    font-size: 14px;
+    margin-left: 7%;
     border: none;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }
@@ -1413,7 +1396,8 @@ background-color: brown;
 
 
   .lefttdiv{
-    margin-left: 18%;
+    
+    margin-left: 0%;
     width: 100%;
     letter-spacing: 3px;
 }  
@@ -1422,6 +1406,7 @@ background-color: brown;
 
     .lefttdiv h2{
     font-size: 22px;
+    margin-left: 20%;
 }
 
 
@@ -1434,11 +1419,11 @@ background-color: brown;
 
 
    .greydiv{
-    margin-left: 3.5%;
-    width: 55vw;
+    
+    width: 88vw;
     display: flex;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    margin-top: 0%;
+    margin-bottom: 3%;
     height: 12vh;
     background-color: rgba(109, 107, 107, 0.899);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
@@ -1459,13 +1444,13 @@ background-color: brown;
     color: white;
     margin-left: 4%;
     margin-top: 2%;
-font-size: 15px;
+font-size: 18px;
 }   
 
 
 
     .greyhb{
-    width: 45vw;
+    width: 100vw;
     height: 28vh;
 }
 
@@ -1473,8 +1458,8 @@ font-size: 15px;
 
   .greyhb button{
     background-color: rgba(123, 120, 120, 0.899);
-    
-    margin-left: 48%;
+    margin-top:3.5%;
+margin-left: 75%;
 font-size: 10px;
 border: none;
 color: white;
@@ -1485,40 +1470,37 @@ height: 5vh;
 
 
     .learnmoreabout{
-    margin-right: 15%;
+    margin-left: 14%;
     margin-top: 10%;
     width: 100%;
-    margin-left: -7%;
+   
     
 }
 
 
 
    .learnmoreabout h1{
-    font-size: 23px;
-    margin-bottom: 30%;
+    font-size: 22px;
+    margin-bottom: 20%;
     font-family: sans-serif;
 } 
 
 
 
    .learnmoreabout span{
-    font-size: 23px;
+    font-size: 22px;
     font-family: sans-serif;
 } 
 
 
 
     .xyz{
-    margin-left: 1%;
+    margin-left: 14%;
     margin-bottom: 5%;
 }
 
-
-
-    .greyhb span{
-        
-    font-size: 15px;
+ .greyhb span{
+     font-size: 15px;
 }
 
 
@@ -1535,22 +1517,29 @@ height: 5vh;
     .bighead h1{
     color: black;
     font-size: 25px;
-    margin-left: 7%;
+    margin-left: 9%;
 }
 
+.midparagraph{
+    width: 100%;
+    margin-left: -4%;
 
+}
 
   .midparagraph p{
+    
     font-family: sans-serif;
-    margin-bottom: 1.5%;
-    font-size: 8px;
+    margin-bottom: 1%;
+    font-size: 16px;
+    width: 95%;
 }  
 
 
 
     .lasttdiv{
     width: 100%; 
-    margin-top: 5%;
+    margin-top: 13%;
+    
 }
 
 
@@ -1593,7 +1582,7 @@ margin-left: 18%;
     width: 25vw;
     font-size: 12px;
   margin-bottom: 18%;
-    margin-left: 20%;
+    margin-left: 18%;
     border: none;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
 }  
@@ -1602,9 +1591,9 @@ margin-left: 18%;
 
    .clientbutton{
     
-    width: 35vw;
+    width: 40vw;
     margin-top: 4%;
-    margin-left: 16%;
+    margin-left: 10%;
     border-top: 2px solid black;
 } 
 
@@ -1634,7 +1623,7 @@ margin-left: 18%;
 
 
    .blackpic img{
-    height: 22vh;
+    height: 25vh;
     width: 35vw;
 } 
 
@@ -1642,14 +1631,14 @@ margin-left: 18%;
 
     .follow{
     width: 90%;
-    margin-left: 5%;
+    margin-left: 13%;
     
 }
 
 
 
   .fllwus{
-    width: 90%;
+    width: 60%;
     margin-top: 5%;
     margin-left: 5%; 
     
@@ -1658,23 +1647,28 @@ margin-left: 18%;
 
 
    .fllwus h1{
-    margin-left: 15%;
-    font-size: 28px;
+    margin-left: 27%;
+    font-size: 20px;
 font-weight: bolder;
 } 
 
-
+.fllwus span{
+    
+    font-size: 20px;
+font-weight: bolder;
+}
 
 
    .fllwus img{
-    margin-left: 8%;
+    margin-left: 11%;
+    width: 85%;
 } 
 
 
 
     .socialmedia{
     display: flex;
-    margin-top: 1%;
+    margin-top: 0%;
     margin-left: 21%;
 }
 
@@ -1682,7 +1676,8 @@ font-weight: bolder;
 
 
     .sm1 img{
-    width: 9vw;
-    margin: 5px;
+    width: 8vw;
+    margin: 4px;
+    margin-left: 65%;
     }
 }
