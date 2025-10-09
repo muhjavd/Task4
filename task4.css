@@ -1848,9 +1848,9 @@ font-size: 3.1rem;
     
 }
 .homediv ul li a{
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
-    
+    font-weight: bold;
 }
 
     .picdv{
@@ -2122,7 +2122,7 @@ height: 18vh;
 
 .middv{
     width: 49.5%;
-    border-right: 2px solid rgba(194, 177, 177, 0.352);
+    
 }
 
 
